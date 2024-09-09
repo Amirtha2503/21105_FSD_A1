@@ -3,9 +3,6 @@
 
 ~ npm run dev
 
-
-Here's the information in **Markdown** format:
-
 ---
 
 ### 1. How would you set up a real-time WebSocket connection in a React component for collaborative editing?
