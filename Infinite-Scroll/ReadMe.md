@@ -7,7 +7,7 @@ npm install
 ```bash
 npm start
 ```
-```markdown
+
 ### 1. **How would you implement infinite scrolling in a React component?**
 
 Infinite scrolling is implemented using the `IntersectionObserver` API.
@@ -96,15 +96,7 @@ To optimize loading and improve performance, consider these strategies:
 
 1. **Lazy Loading**: Render only the visible posts using virtualization.
 
-```js
-// Consider adding libraries like react-window or react-virtualized
-```
-
 2. **Throttling or Debouncing**: Throttle or debounce the scroll event to avoid triggering too many requests.
-
-```js
-// Add a debounce/throttle mechanism around the IntersectionObserver
-```
 
 3. **Caching Data**: Cache fetched posts in local storage or global state (e.g., Redux) to avoid unnecessary refetching.
 
@@ -132,15 +124,7 @@ setLoading(false);
 
 1. **Performance Degradation**: As more posts are loaded, the DOM can slow down due to the growing list.
 
-```js
-// Use a library like react-window to render only the visible posts
-```
-
 2. **Network Throttling**: Frequent API calls can overwhelm the network.
-
-```js
-// Implement throttling or debouncing on scroll events
-```
 
 3. **Endless Fetching**: Fetching could go on indefinitely without proper termination.
 
