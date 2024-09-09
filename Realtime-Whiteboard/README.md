@@ -10,7 +10,7 @@ Here's the information in **Markdown** format:
 
 ### 1. How would you set up a real-time WebSocket connection in a React component for collaborative editing?
 
-To set up a real-time WebSocket connection, you can use `useEffect` to initialize the connection. For example:
+To set up a real-time WebSocket connection, use `useEffect` to initialize the connection. For example:
 
 ```jsx
 useEffect(() => {
@@ -28,7 +28,7 @@ This connects to a WebSocket server, listens for incoming messages, and disconne
 
 ### 2. Describe how to implement drawing functionality on an HTML5 canvas using React.
 
-In React, you can use `useRef` to interact with the `<canvas>` element. Handle mouse events like `onMouseDown`, `onMouseMove`, and `onMouseUp` to capture user drawing input. For instance:
+In React, `useRef` to interact with the `<canvas>` element. Handle mouse events like `onMouseDown`, `onMouseMove`, and `onMouseUp` to capture user drawing input. For instance:
 
 ```jsx
 const canvasRef = useRef(null);
@@ -39,7 +39,7 @@ const handleMouseMove = (e) => {
 };
 ```
 
-You can add drawing tools like pencil, line, and shapes based on `tool` state.
+I have also added drawing tools like pencil, line, and shapes based on `tool` state.
 
 ---
 
